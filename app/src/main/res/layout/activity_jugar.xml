@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="wgcv.me.tresenraya.Jugar"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tv_turno" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/group"
+
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.33">
+
+            <ImageButton
+                android:id="@+id/ib11"
+                android:tag="11"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:src="@null"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:onClick="Aplasta"
+                android:layout_weight="0.33"
+
+                android:layout_margin="25dp"
+                />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/ib12"
+                android:src="@null"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:tag="12"
+                android:onClick="Aplasta"
+                android:layout_weight="0.33"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/ib13"
+                android:src="@null"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:tag="13"
+                android:onClick="Aplasta"
+                android:layout_weight="0.33"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.33">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/ib21"
+                android:src="@null"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:tag="21"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:onClick="Aplasta"
+                android:layout_weight="0.33"
+                android:layout_margin="25dp"
+                android:layout_marginBottom="0dp" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/ib22"
+                android:src="@null"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:tag="22"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:onClick="Aplasta"
+                android:layout_weight="0.33"
+                android:layout_margin="25dp"
+                android:layout_marginBottom="0dp" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/ib23"
+                android:src="@null"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:tag="23"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:onClick="Aplasta"
+                android:layout_weight="0.33"
+                android:layout_margin="25dp"
+                android:layout_marginBottom="0dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.33">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/ib31"
+                android:src="@null"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:tag="31"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:onClick="Aplasta"
+                android:layout_margin="25dp"
+                android:layout_weight=".33" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/ib32"
+                android:src="@null"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:tag="32"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:onClick="Aplasta"
+                android:layout_margin="25dp"
+                android:layout_weight=".33" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/ib33"
+                android:src="@null"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:tag="33"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:onClick="Aplasta"
+                android:layout_margin="25dp"
+                android:layout_weight=".33" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
